@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#7e22ce" />
+    <meta name="description" content="Vartika Shah – Full Stack Developer Portfolio" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <title>Vartika Shah | Portfolio</title>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+</body>
+
+</html>
+
+<script>
+    // This script is used to set the theme color dynamically
+    document.documentElement.style.setProperty('--theme-color', '#7e22ce');
+</script>
+<script>
+    // This script is used to set the viewport meta tag dynamically
+    const viewport = document.querySelector('meta[name="viewport"]');
+    if (viewport) {
+        viewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
+    }
+</script>

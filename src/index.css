@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: smooth font and layout tweaks */
+
+body {
+    @apply antialiased bg-gray-50 text-gray-900;
+}
+
+
+/* Optional: custom scrollbar styles */
