@@ -9,24 +9,7 @@ https://vartikashah.netlify.app/
 - **HTML5 + CSS3**
 - **JavaScript (ES6+)**
 - **Git & GitHub**
-
-## 📦 Installation
-
-To run locally:
-
-```bash
-git clone https://github.com/vartikashah018/Vartika-s-Portfolio.git
-cd Vartika-s-Portfolio
-npm install
-npm start
-## Vartika-s-Portfolio/
-├── public/
-│   └── index.html
-├── src/
-│   ├── components/
-│   └── App.js
-├── package.json
-└── README.md
+  
 # ✨ Features
 Responsive design for all devices
 
